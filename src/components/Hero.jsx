@@ -2,7 +2,7 @@ import React from 'react'
 import heroVid from "../assets/video.mp4"
 export default function Hero() {
   return (
-    <div className='w-full h-[90vh] '>
+    <div className='w-full h-[100vh] '>
             <video className='object-cover h-full w-full -z-10  absolute' loop autoPlay muted src={heroVid}></video>
         <div className='w-full text-white h-[90%] flex justify-center items-center flex-col'>
             <h1 className='text-white text-4xl font-bold'>Decentralized</h1>

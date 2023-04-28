@@ -8,6 +8,9 @@
     --primary-purple:#6a00ff;
 }
 @layer base{
+    body{
+        @apply bg-black
+    }
         * {
           @apply font-[Kanit] 
         }
